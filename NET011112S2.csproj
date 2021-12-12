@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>NET011112S2.ArreglosDeClase</StartupObject>
+    <StartupObject>NET011112S2.ProgramPoo</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -48,12 +48,25 @@
   <ItemGroup>
     <Compile Include="Arreglos.cs" />
     <Compile Include="ArreglosDeClase.cs" />
-    <Compile Include="Estudiante.cs" />
+    <Compile Include="Asalariado.cs" />
+    <Compile Include="Cliente.cs" />
+    <Compile Include="Persona.cs" />
+    <Compile Include="POO\Asalariado.cs" />
+    <Compile Include="POO\ClientePrestamo.cs" />
+    <Compile Include="POO\Comerciante.cs" />
+    <Compile Include="POO\PorServicio.cs" />
+    <Compile Include="POO\ProgramPrestamo.cs" />
+    <Compile Include="PRESTAMO\Cliente.cs" />
+    <Compile Include="PRESTAMO\Persona.cs" />
+    <Compile Include="PRESTAMO\Polimorfismo.cs" />
+    <Compile Include="PRESTAMO\ProgramPoo.cs" />
+    <Compile Include="PRESTAMO\Proveedor.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
