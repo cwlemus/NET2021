@@ -46,12 +46,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Arreglos.cs" />
-    <Compile Include="ArreglosDeClase.cs" />
-    <Compile Include="Asalariado.cs" />
-    <Compile Include="Cliente.cs" />
-    <Compile Include="Persona.cs" />
-    <Compile Include="POO\Asalariado.cs" />
+    <Compile Include="CLASES E INSTANCIAS\Arreglos.cs" />
+    <Compile Include="CLASES E INSTANCIAS\ArreglosDeClase.cs" />
+    <Compile Include="CLASES E INSTANCIAS\Asalariado.cs" />
+    <Compile Include="CLASES E INSTANCIAS\Cliente.cs" />
+    <Compile Include="CLASES E INSTANCIAS\Estudiante.cs" />
+    <Compile Include="CLASES E INSTANCIAS\Persona.cs" />
+    <Compile Include="POO\AsalariadoPrestamo.cs" />
     <Compile Include="POO\ClientePrestamo.cs" />
     <Compile Include="POO\Comerciante.cs" />
     <Compile Include="POO\PorServicio.cs" />
@@ -61,7 +62,7 @@
     <Compile Include="PRESTAMO\Polimorfismo.cs" />
     <Compile Include="PRESTAMO\ProgramPoo.cs" />
     <Compile Include="PRESTAMO\Proveedor.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="CLASES E INSTANCIAS\Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
