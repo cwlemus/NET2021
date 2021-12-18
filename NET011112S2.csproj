@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>NET011112S2.RELACIONES_CLASES.PrincipalCuenta</StartupObject>
+    <StartupObject>NET011112S2.MENEJO_ERRORES.ExceptionTest</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -56,6 +56,9 @@
     <Compile Include="INTERFACES\PrincipalVehiculo.cs" />
     <Compile Include="INTERFACES\ServiceVehiculo.cs" />
     <Compile Include="INTERFACES\Vehiculo.cs" />
+    <Compile Include="MENEJO ERRORES\ExceptionTest.cs" />
+    <Compile Include="MENEJO ERRORES\MiClase.cs" />
+    <Compile Include="MENEJO ERRORES\PrincipalError.cs" />
     <Compile Include="PRESTAMO HIPOTECARIO\AsalariadoPrestamo.cs" />
     <Compile Include="PRESTAMO HIPOTECARIO\ClientePrestamo.cs" />
     <Compile Include="PRESTAMO HIPOTECARIO\Comerciante.cs" />
