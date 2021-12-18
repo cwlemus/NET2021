@@ -15,6 +15,7 @@ namespace NET011112S2
             Console.WriteLine("Ingrese monto facturado mensual ($): ");
             double montoFacturadoMensual = double.Parse(Console.ReadLine());
             this.Ingresos = (montoFacturadoMensual*0.25);
+            this.Ingresos = base.CalcularDescuentosLey();
             this.PorcentajePrima = 0.15d;
             this.NumeroSalarios = 15;
             this.InteresMensual = 7.5;
@@ -22,7 +23,8 @@ namespace NET011112S2
             this.NumeroCuotas = Anyos * 12;
             this.CalcularMontoMaximoAprobado();
             this.CalcularPrima();
-            this.CalcularCuotaMensual(this.MontoAFinanciar);
+            this.CalcularCuotaMensual(this.MontoAFinanciar);            
         }
+        
     }
 }

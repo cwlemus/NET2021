@@ -10,9 +10,9 @@ namespace NET011112S2
     {
         public static void Main()
         {
-            Persona[] personas = new Persona[3];
-            personas[0] = new Persona();
-            personas[1] = new Cliente();
+            PersonaPol[] personas = new PersonaPol[3];
+            personas[0] = new PersonaPol();
+            personas[1] = new ClientePol();
             personas[2] = new Proveedor();
             
             foreach (var p in personas)
@@ -21,7 +21,7 @@ namespace NET011112S2
             }            
             Console.ReadLine();
         }
-        public static void imprimir(Persona p)
+        public static void imprimir(PersonaPol p)
         {
             Console.WriteLine(p);
         }

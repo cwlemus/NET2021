@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace NET011112S2
 {
-    public class ClientePrestamo
+    public  class ClientePrestamo:PersonaPrestamo
     {
         #region atributos
         public int TipoCliente { get; set; }
@@ -28,6 +28,7 @@ namespace NET011112S2
         public ClientePrestamo()
         {
             genearMenu();
+            //generarInstancia(TipoCliente,Nombre,Telefono);
         }
         public void genearMenu()
         {
@@ -74,13 +75,13 @@ namespace NET011112S2
             string cadena = string.Format("\nEstimado {0} le detallamos información de su credito hipotecario\nEl monto maximo que puede aprobarse es ($): {1} \nPrima minima a cancelar es ($): {2} \nLa Cuota mensual a cancelar sera ($): {3} \nPara un periodo de ($): {4} años\n",this.Nombre.ToUpper(),MontoAFinanciar,Prima,CuotaMensual,Anyos);
             return cadena;
         }
-        public ClientePrestamo generarInstancia(int tipo,string nombre,string telefono)
+        public ClientePrestamo GenerarInstancia(int tipo,string nombre,string telefono)
         {
             ClientePrestamo c = null;
             switch (TipoCliente)
             {
                 case 1:
-                    c = new Asalariado(nombre, telefono);
+                    c = new AsalariadoPrestamo(nombre, telefono);
                     break;
                 case 2:
                     c = new PorServicio(nombre, telefono);
@@ -93,6 +94,13 @@ namespace NET011112S2
             }
             return c;
         }
+
+        public override double CalcularDescuentosLey()
+        {
+            return Ingresos-=Ingresos*0.10;
+        }
+
+
 
         #endregion
     }

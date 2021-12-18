@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>NET011112S2.ProgramPoo</StartupObject>
+    <StartupObject>NET011112S2.INTERFACES.PrincipalVehiculo</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -52,16 +52,21 @@
     <Compile Include="CLASES E INSTANCIAS\Cliente.cs" />
     <Compile Include="CLASES E INSTANCIAS\Estudiante.cs" />
     <Compile Include="CLASES E INSTANCIAS\Persona.cs" />
-    <Compile Include="POO\AsalariadoPrestamo.cs" />
-    <Compile Include="POO\ClientePrestamo.cs" />
-    <Compile Include="POO\Comerciante.cs" />
-    <Compile Include="POO\PorServicio.cs" />
-    <Compile Include="POO\ProgramPrestamo.cs" />
-    <Compile Include="PRESTAMO\Cliente.cs" />
-    <Compile Include="PRESTAMO\Persona.cs" />
-    <Compile Include="PRESTAMO\Polimorfismo.cs" />
-    <Compile Include="PRESTAMO\ProgramPoo.cs" />
-    <Compile Include="PRESTAMO\Proveedor.cs" />
+    <Compile Include="INTERFACES\IVehiculo.cs" />
+    <Compile Include="INTERFACES\PrincipalVehiculo.cs" />
+    <Compile Include="INTERFACES\ServiceVehiculo.cs" />
+    <Compile Include="INTERFACES\Vehiculo.cs" />
+    <Compile Include="PRESTAMO HIPOTECARIO\AsalariadoPrestamo.cs" />
+    <Compile Include="PRESTAMO HIPOTECARIO\ClientePrestamo.cs" />
+    <Compile Include="PRESTAMO HIPOTECARIO\Comerciante.cs" />
+    <Compile Include="PRESTAMO HIPOTECARIO\PersonaPrestamo.cs" />
+    <Compile Include="PRESTAMO HIPOTECARIO\PorServicio.cs" />
+    <Compile Include="PRESTAMO HIPOTECARIO\ProgramPrestamo.cs" />
+    <Compile Include="POLIMORFISMO\ClientePol.cs" />
+    <Compile Include="POLIMORFISMO\PersonaPol.cs" />
+    <Compile Include="POLIMORFISMO\Polimorfismo.cs" />
+    <Compile Include="POLIMORFISMO\ProgramPoo.cs" />
+    <Compile Include="POLIMORFISMO\Proveedor.cs" />
     <Compile Include="CLASES E INSTANCIAS\Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

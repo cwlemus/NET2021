@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace NET011112S2
 {
-    public class Cliente : Persona
+    public class ClientePol : PersonaPol
     {
         
         public string TipoCliente { get; set; }
@@ -15,5 +15,6 @@ namespace NET011112S2
         {
             return "Estoy en clase Cliente...";
         }
+       
     }
 }

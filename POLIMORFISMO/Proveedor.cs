@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace NET011112S2
 {
-    public class Proveedor : Persona
+    public class Proveedor : PersonaPol
     {        
         public string NumeroRegistro { get; set; }
         public int Codigo { get; set; }

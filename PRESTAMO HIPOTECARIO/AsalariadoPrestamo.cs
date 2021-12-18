@@ -8,7 +8,7 @@ namespace NET011112S2
 {
     public class AsalariadoPrestamo : ClientePrestamo
     {
-        public AsalariadoPrestamo(string nombre, string telefono) 
+        public AsalariadoPrestamo(string nombre, string telefono):base(nombre,telefono) 
         {
             Console.WriteLine("Ingrese su salario: ");
             this.Ingresos = double.Parse(Console.ReadLine());

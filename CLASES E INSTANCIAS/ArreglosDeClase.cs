@@ -10,6 +10,8 @@ namespace NET011112S2
     {
         public static void Main()
         {
+            int[] Numeros = new int[3];
+
             //inicalizamos
             Estudiante[] estudiantes = new Estudiante[3];
             decimal sumatoria = 0.00m;

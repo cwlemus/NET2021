@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace NET011112S2
 {
-    public  class Persona
+    public  class PersonaPol
     {
         public string Nombre { get; set; }
         public string Apellido { get; set; }
@@ -16,7 +16,7 @@ namespace NET011112S2
         {
             public void MetodoB()
             {
-                Persona e=new Persona();
+                PersonaPol e=new PersonaPol();
                 e.variable="";
             }
         }

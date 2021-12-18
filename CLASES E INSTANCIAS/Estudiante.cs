@@ -11,7 +11,7 @@ namespace NET011112S2
         public int Codigo { get; set; }
         public string Nombre { get; set; }
         public string Apellido { get; set; }
-        public decimal Cum { get; set; }
+        public decimal? Cum { get; set; }
         public decimal PagoMensual { get; set; }
         public Estudiante()
         {
@@ -25,5 +25,14 @@ namespace NET011112S2
             Cum = cum;
             PagoMensual = pagoMensual;
         }
+
+        public void CalcularCuotaMensual()
+        {
+            if (Cum != null)
+            {
+                PagoMensual -= PagoMensual * 0.10m;
+            }
+        }
+
     }
 }
